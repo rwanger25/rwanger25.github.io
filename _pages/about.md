@@ -1,30 +1,25 @@
 ---
+title: "about"
 layout: about
-title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+output: pdf_document
 profile:
   align: right
-  image: lab profile photo.jepg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Office 211</p>
-    <p>Natural Resources Building, 480 Wilson Rd</p>
-    <p>East Lansing, MI 48824</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+  image: lab_profile_photo.jepg
+  image_circular: false
+  more_info: |
+    <p>Office 211</p> <p>Natural Resources Building, 480 Wilson Rd</p> <p>East Lansing, MI 48824</p>
+selected_papers: true
+social: true
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: true
+  scrollable: true
+  limit: 5
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 ---
 
 I am PhD student, getting a dual-degree in Forestry and Ecology, Evolution, and Behavior, at Michigan State University in Dr. Andrew Finley's Geospatial Lab. My research interest is in statistical modeling of the impacts of forest disturbances on forest composition and structure. 
