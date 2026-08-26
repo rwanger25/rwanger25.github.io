@@ -5,7 +5,7 @@ permalink: /
 output: pdf_document
 profile:
   align: right
-  image: lab_profile_photo.jepg
+  image: lab_profile_photo.jpg
   image_circular: false
   more_info: |
     <p>Office 211</p> <p>Natural Resources Building, 480 Wilson Rd</p> <p>East Lansing, MI 48824</p>
