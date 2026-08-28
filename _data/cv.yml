@@ -93,6 +93,12 @@ cv:
         location: Waterville, Maine
         start_date: 2021
         end_date: 2022
+        highlights:
+          - Collected forest inventory data by surveying species abundance, richness, canopy position, and crown illumination
+          - Analyzed forest inventory data to track changes in above-ground biomass, tree species abundance, and tree mortality across time 
+          - Designed and presented a poster summarizing this research project
+          - Collected RIEGL VZ-400i Terrestrial Laser Scanner point cloud scans of forested circular plots for extracting plant morphological and structural data and expediting forest inventories 
+
 
     # Volunteer:
     #   - company: People's Climate March
@@ -106,45 +112,41 @@ cv:
     #       - "Men of the year 2014 by Time magazine"
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: EEB Engagement Fellowship
+        date: 2026
+        awarder: Michigan State University
+        Amount: $5,000
+        
+      - title: F. Russell Cole Student Research Fellowship
+        date: 2024
+        awarder: Colby College
+        Amount: $2,962
+        
+      - title: Mu Sigma Rho
+        date: 2024
+        awarder: National Statistics Honor Society
+        
+      - title: Research Experiences for Undergraduates
+        date: 2024
+        awarder: NSF, The Morton Arboretum
+        
+      - title: Phi Beta Kappa
+        date: 2024
+        awarder: Colby College
+        
+      - title: Dana Scholar
+        date: 2022, 2024
+        awarder: Colby College
+        Amount: $500
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Identifying the Spread of Invasive Jumping Worms across Maine’s Forests using Soil eDNA
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Rebecca Wanger
+        publisher: Colby College Honors Theses
+        releaseDate: 2025-06-27
+        url: https://digitalcommons.colby.edu/honorstheses/1498/ 
+        summary: It concerned investigating the spread of invasive jumpings worms using soil eDNA and its relationship to soil chemistry and plant composition.  
 
     Skills:
       - name: Physics
@@ -153,47 +155,59 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
+        summary: "Native Speaker"
+        
+      - name: Spanish
+        summary: "Intermediate Speaker"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+#     Interests:
+#       - name: Physics
+#         icon: fa-solid fa-tag
+#         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: Non-Wildland Fire Chainsaw Operator Sawyer
+        date: 2025-11
+        issuer: National Park Service
+        icon: fa-solid fa-tree
+    
+      - name: Certified Pesticide Applicator in Michigan, Commercial (Core, 2, 3B, 6)
+        date: 2026-11
+        issuer: MDARD
+        icon: fa-solid fa-tree
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Adult First AID CPR AED
+        date: 2025-08
+        issuer: Health & Safety Institute
+        icon: fa-solid fa-kit-medical
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Wilderness First Aid
+        date: 2024-05
+        issuer: Wilderness Medical Associates International 
+        icon: fa-solid fa-kit-medical
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Identifying the Spread of Invasive Jumping Worms in Maine’s Forests
+        summary: Worked to track the spread of invasive worms using soil eDNA across the state’s protected forests and examine the relationship between the worms’ presence and plant/soil composition
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Independently designed the protocols and data sheets and collected the site, plant composition, soil chemistry, and soil eDNA data from 57 177 m2 circular forested plots in Maine’s public reserved lands, state parks, botanical gardens, arboretums, and land trusts
+          - Extracted, amplified, purified, and sequenced COI regions of six earthworm tissue samples and 57 soil eDNA samples using PCR, Agar Gel Electrophoresis, and Oxford Nanopore Sequencing
+          - Cleaned and mapped sequenced reads against a database of 4,013 reference sequences of jumping (Amynthas spp.) and European worms (Lumbricus spp.) using Geneious
+          - Performed extensive literature search culminating in writing a literature review on what is known about Jumping Worms in northeastern forest ecosystems
+          - Wrote and presented honor’s thesis research (136 pg.) and analysis, including maps of sample plots and findings made in ArcGIS
+        start_date: 2024-08
+        end_date: 2025-05
 
     References:
-      - name: Professor John Doe
+      - name: Dr. Sean Hoban
         icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: Tree Conservation Biologist, The Morton Arboretum
+        
+      - name: Dr. Justin Becknell
+        icon: fa-solid fa-laptop
+        reference: Assistant Professor Dep. Environmental Science, Colby College
+        
+      - name: Dr. Sean Hoban
+        icon: fa-solid fa-laptop
+        reference: Senior Research Scientist, Bigelow Labs for Ocean Science
