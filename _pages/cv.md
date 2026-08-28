@@ -6,6 +6,6 @@ nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/rwanger_cv.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: 
+description: My curriculum vitae
   sidebar: left
 ---

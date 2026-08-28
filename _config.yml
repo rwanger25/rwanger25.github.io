@@ -203,7 +203,7 @@ collections:
     output: false
   news:
     defaults:
-      layout: post
+      layout: false
     output: true
   projects:
     output: false
