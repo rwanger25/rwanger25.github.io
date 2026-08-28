@@ -26,8 +26,8 @@ cv:
         url: https://www.finley-lab.com/lab 
         area: Forestry, Ecology Evolution and Behavior
         studyType: Dual PhD
-        start_date: 1900
-        end_date: 1905
+        start_date: 2026
+        end_date: Present
         # score: ""
         # courses: "Theory of Relativity"
         highlights:
@@ -41,7 +41,7 @@ cv:
         start_date: 2021
         end_date: 2025
         highlights:
-          - Honors Thesis: Identifying the Spread of Invasive Jumping Worms across Maine’s Forests using Soil eDNA
+          - Honors thesis was identifying the Spread of Invasive Jumping Worms across Maine’s Forests using Soil eDNA
 
     Experience:
       - company: Bothwell Conservation Genetics Lab, University of Georgia
@@ -149,11 +149,19 @@ cv:
         summary: It concerned investigating the spread of invasive jumpings worms using soil eDNA and its relationship to soil chemistry and plant composition.  
 
     Skills:
-      - name: Physics
-        level: Master
+      - name: Analytical
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
+        keywords: "Statistical analysis, data cleaning and management, scientific writing and communication"
+      - name: Software
+        icon: fa-solid fa-hashtag
+        keywords: "R (tidyverse, spatstat, sf, raster), GitHub, ArcGIS (Pro, Field Maps), QGIS, Linux, Geneious (mapping, aligning, and forming sequences)"
+      - name: Field 
+        icon: fa-solid fa-hashtag
+        keywords: "Forest inventory and health monitoring, chemical and mechanical pesticide application, plant ID"
+      - name: Lab 
+        icon: fa-solid fa-hashtag
+        keywords: "DNA Extraction, Oxford Nanopore Sequencing, Agar Gel Electrophoresis, PCR, qPCR, water quality measurements, microbial isolations, staining, and culturing" 
+        
     Languages:
       - name: English
         summary: "Native Speaker"
