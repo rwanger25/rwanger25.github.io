@@ -23,16 +23,16 @@ cv:
     Education:
       - institution: Michigan State University
         location: East Lansing, Michigan
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
+        url: https://www.finley-lab.com/lab 
+        area: Forestry, Ecology Evolution and Behavior
+        studyType: Dual PhD
         start_date: 1900
         end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        # score: ""
+        # courses: "Theory of Relativity"
         highlights:
-          - Description 1.
-          - Description 2.
+          # - Description 1.
+          # - Description 2.
 
       - institution: Colby College
         location: Waterville, Maine
@@ -41,13 +41,13 @@ cv:
         start_date: 2021
         end_date: 2025
         highlights:
-          - <i>Honors Thesis</i>: Identifying the Spread of Invasive Jumping Worms across Maine’s Forests using Soil eDNA
+          - Honors Thesis: Identifying the Spread of Invasive Jumping Worms across Maine’s Forests using Soil eDNA
 
     Experience:
       - company: Bothwell Conservation Genetics Lab, University of Georgia
         position: Research Technician
         location: Athens, GA
-        start_date: January 2026
+        start_date: Jan. 2026
         end_date: June 2026
         summary: Planned and executed the logistics for a greenhouse trial exploring the GXE defenses and growth of loblolly and longleaf pine when facing brown spot needle blight and drought. 
         highlights:
@@ -56,43 +56,54 @@ cv:
           - Analyzed preliminary results of mortalities and effective growth strategies
           - Isolated and cultured Lecanosticta acicola for inoculation
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: National Park Service, Sleeping Bear Dunes National Lakeshore 
+        position: ​​Biological Science Technician Plants
+        location: Empire, MI
+        start_date: 2025
+        end_date: 2026
         highlights:
-          - Description 1.
-          - Description 2.
+          - Surveyed for Oak Wilt Disease (OWD) and hemlock woolly adelgid (HWA) in high probability areas and for remote sensing ground truthing
+          - Treated around 90 white ash trees affected by EAB with tree injections using pesticides
+          - Surveyed for rare plants, such as Pitcher’s Thistle (Cirsium pitcheri), Green Comet Milkweed (Asclepias viridis), and Blue Flag Iris (Iris virginica)
+          - Tested for OWD using branch samples and the AgroLAMP Oak Wilt Detection Kit
+          - Treated over 100 eastern hemlock trees with tree injections using pesticides and delimited over 200 for HWA prevention
+          - Mechanically and chemically treated baby’s breath (Gypsophila paniculata) and slender false brome (Brachypodium sylvaticum)
+          - Set up resistance tests for Beech Bark Disease by applying pads with beech scale
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: The Morton Arboretum
+        position: Research Intern (REU, REEF)
+        location: Lisle, Illinois
+        start_date: 2024
+        end_date: 2026
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Analyzed correlations between morphological, environmental, and spatial traits of an endemic and endangered tree species of Baja California Sur, Mexico
+          - Extracted and quantified DNA from 394 leaf tissue samples of Q. brandegeei individuals and assisted with microsatellite analysis in Geneious 
+
+      - company: Maine Natural Areas Program
+        position: Field Ecology Assistant
+        location: Augusta, Maine
+        start_date: June 2023
+        end_date: Aug. 2023
+        highlights:
+          - Inventoried 75 Ecological Reserve plots using the MNAP Ecological Reserve protocol for the Bureau of Parks and Lands
+
+      - company: Colby College, Becknell Lab
+        position: Environmental Studies Research Assistant
+        location: Waterville, Maine
+        start_date: 2021
+        end_date: 2022
+
+    # Volunteer:
+    #   - company: People's Climate March
+    #     position: Lead Organizer
+    #     location: Zurich, Switzerland
+    #     start_date: 2014-04-01
+    #     end_date: 2015-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
 
     Awards:
       - title: Nobel Prize in Physics
