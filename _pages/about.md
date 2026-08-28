@@ -9,7 +9,7 @@ profile:
   image_circular: false
   more_info: |
     <p>Office 211</p> <p>Natural Resources Building, 480 Wilson Rd</p> <p>East Lansing, MI 48824</p>
-selected_papers: true
+# selected_papers: true
 social: true
 announcements:
   enabled: true
@@ -26,5 +26,3 @@ I am PhD student, getting a dual-degree in Forestry and Ecology, Evolution, and 
 
 I got my undergraduate degree in a double major in environmental science and biology (ecology & evolution) with a minor in statistics. 
 
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
