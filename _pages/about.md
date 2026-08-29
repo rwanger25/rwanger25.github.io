@@ -22,7 +22,7 @@ latest_posts:
 subtitle: 
 ---
 
-I am PhD student, getting a dual-degree in Forestry and Ecology, Evolution, and Behavior, at Michigan State University in Dr. Andrew Finley's [Geospatial Lab](https://www.finley-lab.com/lab). My research interest is in statistical modeling the impacts of forest disturbances on forest composition and structure. 
+I am PhD student, getting a dual-degree in Forestry and Ecology, Evolution, and Behavior, at Michigan State University in Dr. Andrew Finley's [Geospatial Lab](https://www.finley-lab.com/lab). My research interest is in the statistical modeling of forest disturbance impacts on forest composition and structure. 
 
-I got my undergraduate degree in a double major in environmental science and biology (ecology & evolution) with a minor in statistics. 
+I got my undergraduate degree at Colby College with a double major in environmental science and biology (ecology & evolution) and a minor in statistics. 
 
