@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> <html><body> <h1>—</h1> <h1 id="layout-post">layout: post</h1> <h1 id="title-a-post-with-code">title: a post with code</h1> <h1 id="date-2015-07-15-150900">date: 2015-07-15 15:09:00</h1> <h1 id="description-an-example-of-a-blog-post-with-some-code">description: an example of a blog post with some code</h1> <h1 id="tags-formatting-code">tags: formatting code</h1> <h1 id="categories-sample-posts">categories: sample-posts</h1> <h1 id="featured-true">featured: true</h1> <h1 id="-1">—</h1> <p>#</p> <h1 id="this-theme-implements-a-built-in-jekyll-feature-the-use-of-rouge-for-syntax-highlighting">This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.</h1> <h1 id="it-supports-more-than-100-languages">It supports more than 100 languages.</h1> <h1 id="this-example-is-in-c">This example is in C++.</h1> <h1 id="all-you-have-to-do-is-wrap-your-code-in-markdown-code-tags">All you have to do is wrap your code in markdown code tags:</h1> <p>#</p> <h1 id="markdown">````markdown</h1> <h1 id="c">```c++</h1> <h1 id="code-code-code">code code code</h1> <h1 id="-2">```</h1> <h1 id="-3">````</h1> <p>#</p> <h1 id="c-1">```c++</h1> <h1 id="int-mainint-argc-char-const-argv">int main(int argc, char const *argv[])</h1> <h1 id="-4">{</h1> <h1 id="string-mystring">string myString;</h1> <p>#</p> <h1 id="cout-input-a-string-">cout « “input a string: “;</h1> <h1 id="getlinecin-mystring">getline(cin, myString);</h1> <h1 id="int-length--mystringlength">int length = myString.length();</h1> <p>#</p> <h1 id="char-chararray--new-char--length">char charArray = new char * [length];</h1> <p>#</p> <h1 id="chararray--mystring">charArray = myString;</h1> <h1 id="forint-i--0-i--length-i">for(int i = 0; i &lt; length; ++i){</h1> <h1 id="cout-chararrayi--">cout « charArray[i] « ” “;</h1> <h1 id="-5">}</h1> <p>#</p> <h1 id="return-0">return 0;</h1> <h1 id="-6">}</h1> <h1 id="-7">```</h1> <p>#</p> <h1 id="for-displaying-code-in-a-list-item-you-have-to-be-aware-of-the-indentation-as-stated-in-this-faq-you-must-indent-your-code-by-3--bullet_indent_level-spaces-this-is-because-kramdown-the-markdown-engine-used-by-jekyll-indentation-for-the-code-block-in-lists-is-determined-by-the-column-number-of-the-first-non-space-character-after-the-list-item-marker-for-example">For displaying code in a list item, you have to be aware of the indentation, as stated in <a href="https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md#q-how-can-i-get-backtick-fenced-code-blocks-eg--working-inside-lists-with-kramdown" rel="external nofollow noopener" target="_blank">this FAQ</a>. You must indent your code by <strong>(3 * bullet_indent_level)</strong> spaces. This is because kramdown (the markdown engine used by Jekyll) indentation for the code block in lists is determined by the column number of the first non-space character after the list item marker. For example:</h1> <p>#</p> <h1 id="markdown-1">````markdown</h1> <h1 id="1-we-can-put-fenced-code-blocks-inside-nested-bullets-too">1. We can put fenced code blocks inside nested bullets, too.</h1> <h1 id="1-like-this">1. Like this:</h1> <p>#</p> <h1 id="c-2">```c</h1> <h1 id="printfhello-world">printf(“Hello, World!”);</h1> <h1 id="-8">```</h1> <p>#</p> <h1 id="2-the-key-is-to-indent-your-fenced-block-in-the-same-line-as-the-first-character-of-the-line">2. The key is to indent your fenced block in the same line as the first character of the line.</h1> <h1 id="-9">````</h1> <p>#</p> <h1 id="which-displays">Which displays:</h1> <p>#</p> <h1 id="1-we-can-put-fenced-code-blocks-inside-nested-bullets-too-1">1. We can put fenced code blocks inside nested bullets, too.</h1> <h1 id="1-like-this-1">1. Like this:</h1> <p>#</p> <h1 id="c-3">```c</h1> <h1 id="printfhello-world-1">printf(“Hello, World!”);</h1> <h1 id="-10">```</h1> <p>#</p> <h1 id="2-the-key-is-to-indent-your-fenced-block-in-the-same-line-as-the-first-character-of-the-line-1">2. The key is to indent your fenced block in the same line as the first character of the line.</h1> <p>#</p> <h1 id="by-default-it-does-not-display-line-numbers-if-you-want-to-display-line-numbers-for-every-code-block-you-can-set-kramdownsyntax_highlighter_optsblockline_numbers-to-true-in-your-_configyml-file">By default, it does not display line numbers. If you want to display line numbers for every code block, you can set <code class="language-plaintext highlighter-rouge">kramdown.syntax_highlighter_opts.block.line_numbers</code> to true in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</h1> <p>#</p> <h1 id="if-you-want-to-display-line-numbers-for-a-specific-code-block-all-you-have-to-do-is-wrap-your-code-in-a-liquid-tag">If you want to display line numbers for a specific code block, all you have to do is wrap your code in a liquid tag:</h1> <p># #</p> <h1 id="-highlight-c-linenos---code-code-code---endhighlight-">{% highlight c++ linenos %} <br> code code code <br> {% endhighlight %}</h1> <p># #</p> <h1 id="the-keyword-linenos-triggers-display-of-line-numbers">The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers.</h1> <h1 id="produces-something-like-this">Produces something like this:</h1> <p># #</p> <figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+</pre></td> <td class="code"><pre><span class="cp"># 
+# int main(int argc, char const \*argv[])
+# {
+# string myString;
+# 
+#     cout &lt;&lt; "input a string: ";
+#     getline(cin, myString);
+#     int length = myString.length();
+# 
+#     char charArray = new char * [length];
+# 
+#     charArray = myString;
+#     for(int i = 0; i &lt; length; ++i){
+#         cout &lt;&lt; charArray[i] &lt;&lt; " ";
+#     }
+# 
+#     return 0;
+# 
+# }
+# 
+# </span>
+</pre></td> </tr></tbody></table></code></pre></figure> </body></html>
